@@ -1,3 +1,5 @@
+Test Question #1
+
 public class Flyer 
 
 {
@@ -24,12 +26,12 @@ public class Flyer
 	public void SetAirSpeed(int airSpeedMPH){
 		this.airSpeedMilesPerMinute = (double)airSpeedMPH / 60;
 	}
-	//SetAltimeter(int elevationPerMinute) --- Where elevationPerMinute is the elevation gain  per minute measure by feet (Feed Per Minute FPM) – by the flying object
+	//SetAltimeter(int elevationPerMinute) --- Where elevationPerMinute is the elevation gain  per minute measure by feet (Feed Per Minute FPM) â€“ by the flying object
 	public void SetAltimeter(int elevationPerMinute){
 		this.elevationPerMinute = elevationPerMinute;
 		
 	}
-	//Fly() – to indicate 1 minute of fly	
+	//Fly() â€“ to indicate 1 minute of fly	
 	public void Fly()
 	
 	{
